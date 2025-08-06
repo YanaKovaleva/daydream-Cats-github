@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://crihyaogd4drt"
-path="res://.godot/imported/flowers-removebg-preview.png-bf285bcffb2da7cdbdc43493cef7772b.ctex"
+uid="uid://bame4mf5pf6au"
+path="res://.godot/imported/truck2-removebg-preview.png-8daa9570c63efdfef7ad696b48d5ac0e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://flowers-removebg-preview.png"
-dest_files=["res://.godot/imported/flowers-removebg-preview.png-bf285bcffb2da7cdbdc43493cef7772b.ctex"]
+source_file="res://images/map/truck2-removebg-preview.png"
+dest_files=["res://.godot/imported/truck2-removebg-preview.png-8daa9570c63efdfef7ad696b48d5ac0e.ctex"]
 
 [params]
 
