@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://cmes7m3cli64h"]
+
+[ext_resource type="Texture2D" uid="uid://bm41y6884mcr6" path="res://images/powerups etc/tuna-removebg-preview.png" id="1_km5vc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1vnad"]
+size = Vector2(77, 46.5)
+
+[node name="Tuna" type="RigidBody2D"]
+
+[node name="tunaSprite" type="Sprite2D" parent="."]
+position = Vector2(2700, 430)
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("1_km5vc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(2697, 415)
+shape = SubResource("RectangleShape2D_1vnad")
