@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://yemsl70lkni5"]
+
+[ext_resource type="Texture2D" uid="uid://cio5j0qk7rdck" path="res://images/endPicture.jpeg" id="1_egc6y"]
+[ext_resource type="Texture2D" uid="uid://cchxgif5mcjno" path="res://images/endBlank.jpeg" id="2_lt2ag"]
+
+[node name="End" type="Node2D"]
+
+[node name="picture" type="Sprite2D" parent="."]
+position = Vector2(939, 348)
+scale = Vector2(0.641118, 0.623909)
+texture = ExtResource("1_egc6y")
+
+[node name="blank1" type="Sprite2D" parent="."]
+position = Vector2(235, 295)
+scale = Vector2(3.57998, 3.63801)
+texture = ExtResource("2_lt2ag")
+
+[node name="blank2" type="Sprite2D" parent="."]
+position = Vector2(1647, 373)
+scale = Vector2(3.57998, 3.63801)
+texture = ExtResource("2_lt2ag")

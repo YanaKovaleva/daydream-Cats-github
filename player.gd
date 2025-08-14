@@ -1,8 +1,9 @@
 extends CharacterBody2D
 
-
+@onready var animatedSprite = $Sprite2D
+@onready var collision = $CollisionShape2D
 const SPEED = 400.0
-const JUMP_VELOCITY = -500.0
+var JUMP_VELOCITY = -500.0
 
 
 func _physics_process(delta: float) -> void:
@@ -23,3 +24,6 @@ func _physics_process(delta: float) -> void:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 
 	move_and_slide()
+func use_power_up():
+	JUMP_VELOCITY = JUMP_VELOCITY - 70.0
+	

@@ -1,4 +1,4 @@
-extends Area2D
+extends CollisionShape2D
 
 
 # Called when the node enters the scene tree for the first time.
@@ -11,6 +11,7 @@ func _process(delta: float) -> void:
 	pass
 
 
-func _on_body_entered(body: Node2D) -> void:
-	if (body.name=="Player"):
-			get_tree().reload_current_scene()
+func _on_area_2d_body_entered(body: Node2D) -> void:
+	if "Player" in body.name:
+		body.use_power_up()
+		queue_free()
